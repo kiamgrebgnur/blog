@@ -1,0 +1,6 @@
+name: Kiam's Blog
+url: "kiamgrebgnur.de"
+markdown: redcarpet
+pygments: true
+permalinks: date
+
