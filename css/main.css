@@ -58,9 +58,14 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  min-width: 150px;
+  width: 75%;
+  margin: 3em auto 2em auto;
   line-height: 1.5em;
+}
+
+.site .header {
+  margin-bottom: 2.2em;
 }
 
 .site .header a {
@@ -68,17 +73,9 @@ ul.posts span {
   text-decoration: none;
 }
 
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
-}
-
-.site .header h1.title a {
+.site .header .title {
   color: #a00;
-}
-
-.site .header h1.title a:hover {
-  color: #000;
+  font-weight: bold;
 }
 
 .site .header a.extra {
@@ -89,9 +86,13 @@ ul.posts span {
 .site .header a.extra:hover {
   color: #000;
 }
-
 .site .meta {
   color: #aaa;
+}
+
+#main-page {
+    margin: 0px;
+    paddin: 0px;
 }
 
 .site .footer {
@@ -128,6 +129,10 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+.post h1, .post h2, .post h3, .post h4, .post h5 {
+    margin-top:20px;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -157,4 +162,17 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+.categories {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.categories-list li {
+    padding:0;
+    margin:2px;
+    display: inline;
+    list-style-type: none;
+    color: #AAA;
 }

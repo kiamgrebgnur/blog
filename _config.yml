@@ -2,5 +2,8 @@ name: Kiam's Blog
 url: "kiamgrebgnur.de"
 markdown: redcarpet
 pygments: true
-permalinks: pretty
+permalink: /:year/:month/:day/:title/
 
+author: kiamgrebgnur
+copyright: MIT license
+rss_post_limit: 50

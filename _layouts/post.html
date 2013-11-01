@@ -7,6 +7,14 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+<div class="categories">
+    <h1>Tags</h1>
+    <ul class="categories-list">
+    {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+    {% endfor %}
+    </ul>
+</div>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
